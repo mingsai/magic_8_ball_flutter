@@ -11,7 +11,10 @@ This won't change the home directory folder
 
 ## MAKE A BACKUP
 Beware of the option to overwrite as it will give you a default demo and remove your files 
---overwrite 
+--overwrite (see alternative to overwrite below)
+
+## Alternative to OVERWRITE
+trash the android and ios folders before running the flutter create command above since these folders can be recreated.
 
 ## Getting Started
 - Clone this repo and try to remake the sample on your own.
