@@ -15,20 +15,25 @@ ThemeData appTheme = new ThemeData(
 );
 void main() {
   _setTargetPlatformForDesktop();
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: '8-Ball',
-      theme: appTheme,
-      home: BallPage(),
-    ),
-  );
+  runApp(MyApp());
 }
 
 void _setTargetPlatformForDesktop() {
   // No need to handle macOS, as it has now been added to TargetPlatform.
   if (Platform.isLinux || Platform.isWindows) {
     debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
+  }
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: '8-Ball',
+      theme: appTheme,
+      home: BallPage(),
+    );
   }
 }
 
