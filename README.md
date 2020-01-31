@@ -1,16 +1,18 @@
 # magic_8_ball_flutter
 
-A new Flutter project.
+A Flutter demo that I've extended to run on mac/linux desktops in addition to iOS/Android.
+
+## Before Getting Started
+
+To quickly rename a project and package
+flutter create --org com.yourcompany --project-name new_app_name .
+
+This won't change the home directory folder 
+
+## MAKE A BACKUP
+Beware of the option to overwrite as it will give you a default demo and remove your files 
+--overwrite 
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone this repo and try to remake the sample on your own.
+- Find new errors and correct them.
